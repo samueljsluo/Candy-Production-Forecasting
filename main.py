@@ -56,6 +56,6 @@ plt.show()
 
 print('Mean Squared Error:{}'.format(mean_squared_error(production_test['amount'],
                                                         production_test['amount_prediction'])))
-print('Root Mean Squared Error:{}'.format(mean_absolute_error(production_test['amount'],
+print('Mean Absolute Error:{}'.format(mean_absolute_error(production_test['amount'],
                                                               production_test['amount_prediction'])))
 
