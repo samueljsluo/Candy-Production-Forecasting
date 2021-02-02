@@ -31,9 +31,10 @@ def create_time_series_features(df, label):
     return X, df[label]
 
 
-df = pd.read_csv('data/candy_production.csv')
+df = pd.read_csv('data/candy_production.csv', parse_dates=['observation_date'])
 df = df.rename(columns={'observation_date': 'date', 'IPG3113N':'amount'})
 df['date'] = pd.to_datetime(df['date'])
+df = df.sort_values(by='date')
 df = df.set_index('date')
 
 production_train = df.loc[df.index < '2008-12-01'].copy()
