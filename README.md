@@ -4,6 +4,9 @@ This project used XGBoost to predict the candy production.
 
 The data can be download at https://www.kaggle.com/rtatman/us-candy-production-by-month
 
+The distribution of production
+![image](https://github.com/samueljsluo/CandyProductionForecasting/blob/main/data/Production%20Distribution.png)
+
 Results:
 | Metrix              | value              |
 |---------------------|--------------------|
