@@ -1,24 +1,24 @@
 # US Candy Production Forecasting
 
-### This project used XGBoost to predict the candy production.
+This project used XGBoost to predict the candy production.
 
-### The data can be download at https://www.kaggle.com/rtatman/us-candy-production-by-month
+The data can be download at https://www.kaggle.com/rtatman/us-candy-production-by-month
 
-## The distribution of production
+#### The distribution of production
 ![image](https://github.com/samueljsluo/CandyProductionForecasting/blob/main/data/Production%20Distribution.png)
 
-## Outlier Detection
+#### Outlier Detection
 ![image](https://github.com/samueljsluo/CandyProductionForecasting/blob/main/data/Outlier%20Detection.png)
 
-## Lag analysis and autocorrelation analysis
+#### Lag analysis and autocorrelation analysis
 
-### Lag 1
+Lag 1
 ![image](https://github.com/samueljsluo/CandyProductionForecasting/blob/main/data/lag_1.PNG)
 
-### Lag 4
+Lag 4
 ![image](https://github.com/samueljsluo/CandyProductionForecasting/blob/main/data/lag_4.PNG)
 
-### Lag 12
+Lag 12
 ![image](https://github.com/samueljsluo/CandyProductionForecasting/blob/main/data/lag_12.PNG)
 
 Results:
